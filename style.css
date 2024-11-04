@@ -49,6 +49,7 @@ nav {
   font-size: 1.5rem;
 }
 
+
 a {
   color: bisque;
   text-decoration: none;
@@ -420,6 +421,10 @@ article .icon {
 
 .contact-info-container p {
   font-size: larger;
+}
+
+.contact-info-container a {
+  color: black;
 }
 
 .contact-icon {
