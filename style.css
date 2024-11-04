@@ -11,7 +11,7 @@
 body {
   
   font-family: "Poppins", sans-serif;
-  background-color: #ffffff; /* Ganti warna latar belakang */
+  background-color: #ffffff; 
 }
 
 html {
@@ -40,6 +40,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 9vh;
+  background-color: #22333B;
 }
 
 .nav-links {
@@ -49,7 +50,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: bisque;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -65,8 +66,6 @@ a:hover {
   font-family: 'Yellowtail', cursive;
   font-size: 50px;
   color: bisque;
-  
-  
 }
 
 .logo:hover {
@@ -77,7 +76,7 @@ a:hover {
 
 #hamburger-nav {
     display: none;
-    background-color: #22333B; /* Ganti warna latar belakang navbar */
+    background-color: #22333B; 
 }
 
 .hamburger-menu {
@@ -182,6 +181,13 @@ section {
   display: flex;
   height: 800px;
   width: 800px;
+  margin: auto 0;
+  
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
   margin: auto 0;
 }
 
@@ -307,8 +313,8 @@ section {
   padding: 1.5rem;
   flex: 1;
   border-radius: 2rem;
-  background-color: #eae0d5; /* Ganti warna latar belakang */
-  border: 0.1rem solid rgb(163, 163, 163); /* Perbaiki border */
+  background-color: #eae0d5; 
+  border: 0.1rem solid rgb(163, 163, 163); 
   text-align: center;
 }
 
@@ -317,11 +323,7 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
+
 
 /* EXPERIENCE SECTION */
 
@@ -402,8 +404,8 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: 0.1rem solid rgb(163, 163, 163); /* Perbaiki border */
-  background: rgb(250, 250, 250); /* Perbaiki warna latar belakang */
+  border: 0.1rem solid rgb(163, 163, 163); 
+  background: rgb(250, 250, 250); 
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -440,7 +442,9 @@ footer p {
 }
 
 .project-img-large {
-  width: 90%; /* Sesuaikan dengan ukuran proyek lainnya */
-  height: 90%; /* Sesuaikan dengan ukuran proyek lainnya */
+  width: 90%; 
+  height: 90%; 
   border-radius: 2rem;
 }
+
+
