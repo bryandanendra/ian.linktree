@@ -187,6 +187,7 @@ section {
 }
 
 .section__pic-container {
+  justify-content: center;
   height: 400px;
   width: 500px;
   margin: auto 0;
