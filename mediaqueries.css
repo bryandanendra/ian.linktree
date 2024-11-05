@@ -6,6 +6,7 @@
   .about-containers {
     flex-wrap: wrap;
   }
+
   #contact,
   #projects {
     height: fit-content;
@@ -38,6 +39,7 @@
     margin: 0 5%;
   }
   .section__pic-container {
+    justify-content: center;
     width: 290px;
     height: 290px;
     margin: 0 auto 2rem;
@@ -88,7 +90,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 60vw;
     justify-content: center;
   }
   .section__text__p2 {
