@@ -6,7 +6,12 @@
   .about-containers {
     flex-wrap: wrap;
   }
-
+  /* .section__pic-container {
+    justify-content: center;
+    width: 396px;
+    height: 290px;
+    margin: 0 auto 2rem;
+  } */
   #contact,
   #projects {
     height: fit-content;

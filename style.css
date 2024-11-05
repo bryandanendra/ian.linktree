@@ -180,15 +180,15 @@ section {
 
 .section__pic-container {
   display: flex;
-  /* height: 800px;
-  width: 800px; */
+  height: 800px;
+  width: 800px;
   margin: auto 0;
   
 }
 
 .section__pic-container {
-  /* height: 400px;
-  width: 400px; */
+  height: 400px;
+  width: 500px;
   margin: auto 0;
 }
 
